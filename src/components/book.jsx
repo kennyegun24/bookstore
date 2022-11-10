@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./home"
+import Book from "./home"
 import Form from "./form";
 
 const data = [
@@ -33,7 +33,7 @@ const data = [
 const Books = () => (
   <div>
     {data.map((book) => (
-      <Home key={book.id} title={book.title} author={book.author} />
+      <Book key={book.id} title={book.title} author={book.author} />
     ))}
   <Form />
   </div>

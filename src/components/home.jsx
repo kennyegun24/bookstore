@@ -1,6 +1,6 @@
 import './home.css'
 
-const Home = ({title, author}) => (
+const Book = ({title, author}) => (
   <section className='sec'>
   <p>{title}</p>
   <p>{author}</p>
@@ -8,4 +8,4 @@ const Home = ({title, author}) => (
   </section>
 )
 
-export default Home
+export default Book
