@@ -17,7 +17,8 @@
   gap: 10px;
 }
 
-.header, .link {
+.header,
+.link {
   text-decoration: none;
   color: #fff;
 }
