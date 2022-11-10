@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: black;
+}
+
+.navDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header,
+.link {
+  text-decoration: none;
+  color: #fff;
+}
