@@ -1,5 +1,5 @@
 // ACTIONS
-const REMOVE__BOOK  = 'bookstore/src/redux/book/REMOVE__BOOK';
+const REMOVE__BOOK = 'bookstore/src/redux/book/REMOVE__BOOK';
 const ADD__BOOK = 'bookstore/src/redux/book/ADD__BOOK';
 
 // REDUCERS

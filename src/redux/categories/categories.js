@@ -11,7 +11,7 @@ const categories = (state = [], action) => {
   }
 };
 
-//ACTION CREATORS
+// ACTION CREATORS
 const category = () => ({
   type: CHECK_STATUS,
 });
