@@ -1,11 +1,17 @@
-import './home.css'
+import './home.css';
+import PropTypes from 'prop-types';
 
-const Book = ({title, author}) => (
-  <section className='sec'>
-  <p>{title}</p>
-  <p>{author}</p>
-  <button>Remove</button>
+const Book = ({ title, author }) => (
+  <section className="sec">
+    <p>{title}</p>
+    <p>{author}</p>
+    <button type="button">Remove</button>
   </section>
-)
+);
 
-export default Book
+Book.propTypes = {
+  title: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+};
+
+export default Book;
