@@ -1,15 +1,7 @@
 // ACTIONS
-const addBook = (book) => ({
-  type: 'ADD__BOOK',
-  item: book,
-});
-addBook();
+const REMOVE__BOOK  = 'bookstore/src/redux/book/REMOVE__BOOK';
+const ADD__BOOK = 'bookstore/src/redux/book/ADD__BOOK';
 
-const removeBook = (id) => ({
-  type: 'REMOVE__BOOK',
-  id,
-});
-removeBook();
 // REDUCERS
 const bookReducer = (state = [], action) => {
   switch (action.type) {
@@ -21,5 +13,18 @@ const bookReducer = (state = [], action) => {
       return state;
   }
 };
+
+// ACTIONS CREATORS
+const addBook = (book) => ({
+  type: ADD__BOOK,
+  item: book,
+});
+addBook();
+
+const removeBook = (id) => ({
+  type: REMOVE__BOOK,
+  id,
+});
+removeBook();
 
 export default bookReducer;
