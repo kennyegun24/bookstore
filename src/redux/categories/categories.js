@@ -5,7 +5,7 @@ const CHECK_STATUS = 'bookstore/src/redux/category/CHECK_STATUS';
 const categories = (state = [], action) => {
   switch (action.type) {
     case CHECK_STATUS:
-      return 'UNDONE';
+      return 'UNDER CONSTRUCTION';
     default:
       return state;
   }
