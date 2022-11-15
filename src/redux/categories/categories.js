@@ -15,6 +15,6 @@ const categories = (state = [], action) => {
 const category = () => ({
   type: CHECK_STATUS,
 });
-category();
 
 export default categories;
+export { category };
