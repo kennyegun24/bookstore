@@ -50,7 +50,7 @@ const Form = () => {
   };
 
   return (
-    <section>
+    <section className="formSection">
       <div className="error">
         <Err />
       </div>

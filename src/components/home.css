@@ -12,11 +12,11 @@ body {
 .category {
   font-size: 10px;
   font-weight: var(--600);
-  color: var(--light-black-color);
+  color: var(--light-blue-color);
 }
 
 .title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: var(--600);
   margin: 2px 0;
   width: auto;
@@ -28,15 +28,18 @@ body {
 }
 
 .author {
-  font-size: 11px;
-  color: var(--light-blue-color);
+  font-size: 10px;
+  color: rgb(185, 207, 248);
+  font-weight: 600;
+  margin-top: 2px;
 }
 
 .button {
   background: none;
-  color: var(--light-blue-color);
-  font-size: 10px;
+  color: rgb(185, 207, 248);
+  font-size: 9px;
   border: none;
+  font-weight: 600;
 }
 
 .button:nth-child(1) {
@@ -52,13 +55,13 @@ body {
 .current {
   font-size: 10px;
   font-weight: var(--300);
-  color: var(--light-black-color);
+  color: var(--light-blue-color);
   margin-bottom: 5px;
 }
 
 .chapter {
   font-weight: var(--300);
-  font-size: 13px;
+  font-size: 12px;
   color: var(--black-color);
   margin-bottom: 10px;
 }
@@ -69,24 +72,31 @@ body {
   border: none;
   padding: 5px;
   font-size: 10px;
+  width: 70%;
 }
 
 .round {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  border: 4px solid var(--light-blue-color);
+  border: 4px solid var(--blue-color);
   border-left: 4px solid #f7f5f5;
 }
 
 .firstDiv {
-  width: 50%;
+  width: 40%;
 }
 
 .secondDiv {
-  width: 20%;
+  width: 25%;
   display: flex;
-  gap: 5px;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.thirdDiv {
+  width: 30%;
+  padding: 10px;
 }
 
 .percentage {
@@ -95,6 +105,11 @@ body {
 }
 
 .complete {
-  font-size: 12px;
-  color: var(--black-color);
+  font-size: 10px;
+  color: var(--light-blue-color);
+}
+
+.btnDiv {
+  margin-top: 10px;
+  gap: 15px;
 }

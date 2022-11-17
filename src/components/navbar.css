@@ -1,6 +1,6 @@
 :root {
-  --blue-color: blue;
-  --light-blue-color: #9191ee;
+  --blue-color: hwb(199 4% 2%);
+  --light-blue-color: #9f9fb9;
   --white-color: #fff;
   --black-color: #000;
   --light-black-color: #555454;
@@ -10,12 +10,24 @@
   --margin-2: 2%;
   --12px: 12px;
   --300: 300;
+  --500: 500;
   --600: 600;
   --7px: 7px;
 }
 
+.link {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 9px;
+}
+
+.link2 {
+  color: var(--light-blue-color);
+  font-size: 8px;
+}
+
 .padding10 {
-  padding: 10px;
+  padding: 8px;
 }
 
 .marginUpLg {
@@ -59,15 +71,9 @@
   gap: 40px;
 }
 
-.header,
-.link {
+.header {
   text-decoration: none;
   color: var(--blue-color);
-}
-
-.link {
-  font-size: 11px;
-  color: var(--black-color);
 }
 
 .flex {
@@ -91,5 +97,13 @@
 }
 
 .icon {
+  border: 1px solid var(--dip-white-color);
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.font_icon {
   color: var(--blue-color);
+  height: 15px;
+  width: 15px;
 }

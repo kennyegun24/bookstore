@@ -21,7 +21,7 @@ const Books = () => {
           category={book.category}
         />
       ))}
-      <Form />
+      <Form className="formMain" />
     </div>
   );
 };

@@ -18,7 +18,7 @@ const Book = ({
         <p className="category">{category}</p>
         <p className="title">{title}</p>
         <p className="author">{author}</p>
-        <div className="btnDiv flex gap10px">
+        <div className="btnDiv flex">
           <button className="button" type="button">Comment</button>
           <button className="button" type="button" onClick={deleted}>Remove</button>
           <button className="button" type="button">Edit</button>
@@ -33,13 +33,13 @@ const Book = ({
       </div>
       <div className="thirdDiv">
         <h4 className="current">
-          Current Chapter
+          CURRENT CHAPTER
         </h4>
         <h4 className="chapter">
           Chapter 15
         </h4>
         <button type="button" className="progress">
-          Update Progress
+          UPDATE PROGRESS
         </button>
       </div>
     </section>
