@@ -1,6 +1,5 @@
 :root {
   --blue-color: blue;
-  --blue-color: blue;
   --light-blue-color: #9191ee;
   --white-color: #fff;
   --black-color: #000;
@@ -63,7 +62,7 @@
 .header,
 .link {
   text-decoration: none;
-  color: var(--blue-color)
+  color: var(--blue-color);
 }
 
 .link {
