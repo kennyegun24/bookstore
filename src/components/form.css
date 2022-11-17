@@ -1,6 +1,6 @@
 .select {
   width: 22%;
-  padding: 10px var(--12px);
+  padding: 8px var(--12px);
   border: 1px solid var(--dip-white-color);
   margin-right: var(--margin-2);
   font-size: 11px;
@@ -11,7 +11,7 @@ input {
   margin-right: var(--margin-2);
   width: 30%;
   border: 1px solid var(--dip-white-color);
-  padding: 10px var(--12px);
+  padding: 8px var(--12px);
   font-size: 11px;
 }
 
@@ -25,18 +25,20 @@ input {
 }
 
 .newBook {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 10px;
   margin-top: 20px;
+  color: #888;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
-  background: var(--blue-color);
   font-size: 11px;
-  padding: 10px;
+  padding: 8px;
   border: 0;
   width: 80px;
-  color: var(--white-color);
+  background: var(--blue-color);
+  color: #fff;
 }
 
 .error {

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
 :root {
-  --blue-color: hwb(199 4% 2%);
+  --blue-color: #0290ff;
+  --blue-color-2: #4386bf;
   --light-blue-color: #9f9fb9;
   --white-color: #fff;
   --black-color: #000;
@@ -19,11 +22,19 @@
   text-decoration: none;
   letter-spacing: 2px;
   font-size: 9px;
+  color: #121212;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .link2 {
-  color: var(--light-blue-color);
-  font-size: 8px;
+  width: 6.563rem;
+  opacity: 0.5;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  font-size: 7px;
 }
 
 .padding10 {
@@ -74,6 +85,8 @@
 .header {
   text-decoration: none;
   color: var(--blue-color);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .flex {
@@ -100,6 +113,7 @@
   border: 1px solid var(--dip-white-color);
   border-radius: 50%;
   padding: 7px;
+  cursor: pointer;
 }
 
 .font_icon {

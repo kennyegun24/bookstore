@@ -13,6 +13,7 @@ body {
   font-size: 10px;
   font-weight: var(--600);
   color: var(--light-blue-color);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .title {
@@ -21,6 +22,7 @@ body {
   margin: 2px 0;
   width: auto;
   overflow: auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .title::-webkit-scrollbar {
@@ -29,39 +31,44 @@ body {
 
 .author {
   font-size: 10px;
-  color: rgb(185, 207, 248);
-  font-weight: 600;
+  color: var(--blue-color-2);
+  font-weight: 300;
   margin-top: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-stretch: normal;
 }
 
 .button {
   background: none;
-  color: rgb(185, 207, 248);
+  color: var(--blue-color-2);
   font-size: 9px;
   border: none;
-  font-weight: 600;
+  font-weight: 300;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
 }
 
 .button:nth-child(1) {
-  border-right: 1px solid var(--black-color);
+  border-right: 1px solid var(--blue-color-2);
   padding-right: var(--7px);
 }
 
 .button:nth-child(2) {
-  border-right: 1px solid var(--black-color);
+  border-right: 1px solid var(--blue-color-2);
   padding-right: var(--7px);
 }
 
 .current {
-  font-size: 10px;
+  font-size: 9px;
   font-weight: var(--300);
-  color: var(--light-blue-color);
+  color: var(--blue-color);
   margin-bottom: 5px;
+  opacity: 0.5;
 }
 
 .chapter {
   font-weight: var(--300);
-  font-size: 12px;
+  font-size: 11px;
   color: var(--black-color);
   margin-bottom: 10px;
 }
@@ -92,11 +99,13 @@ body {
   display: flex;
   gap: 10px;
   font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .thirdDiv {
   width: 30%;
   padding: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .percentage {

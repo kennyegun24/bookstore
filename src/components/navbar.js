@@ -11,7 +11,7 @@ const Navbar = () => (
       </div>
       <div className="navDiv gap20 flex jstCnt aliCnt">
         <Link className="link link1" to="/">BOOKS</Link>
-        <Link className="link link2" to="/category">CATEGORES</Link>
+        <Link className="link link2" to="/category">CATEGORIES</Link>
       </div>
     </div>
     <div className="icon">
