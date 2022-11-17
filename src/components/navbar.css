@@ -1,30 +1,96 @@
+:root {
+  --blue-color: blue;
+  --blue-color: blue;
+  --light-blue-color: #9191ee;
+  --white-color: #fff;
+  --black-color: #000;
+  --light-black-color: #555454;
+  --red-color: red;
+  --dip-white-color: #d6d3d3;
+  --dip-white-color2: #f7f5f5;
+  --margin-2: 2%;
+  --12px: 12px;
+  --300: 300;
+  --600: 600;
+  --7px: 7px;
+}
+
+.padding10 {
+  padding: 10px;
+}
+
+.marginUpLg {
+  margin-top: 70px;
+}
+
+.marginDnLg {
+  margin-bottom: 70px;
+}
+
+.marginLfAt {
+  margin-left: auto;
+}
+
+.marginRtAt {
+  margin-right: auto;
+}
+
 .nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 40px;
   position: fixed;
   width: 100%;
   top: 0;
-  background: #fff;
+  background: var(--white-color);
   padding: 15px 10%;
   font-family: sans-serif;
 }
 
-.navDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.gap10 {
+  gap: 10px;
+}
+
+.gap20 {
   gap: 20px;
+}
+
+.gap30 {
+  gap: 30px;
+}
+
+.gap40 {
+  gap: 40px;
 }
 
 .header,
 .link {
   text-decoration: none;
-  color: blue;
+  color: var(--blue-color)
 }
 
 .link {
   font-size: 11px;
-  color: #000;
+  color: var(--black-color);
+}
+
+.flex {
+  display: flex;
+}
+
+.gapMd {
+  gap: 30px;
+}
+
+.jstCnt {
+  justify-content: center;
+}
+
+.jstSpb {
+  justify-content: space-between;
+}
+
+.aliCnt {
+  align-items: center;
+}
+
+.icon {
+  color: var(--blue-color);
 }

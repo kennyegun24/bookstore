@@ -1,26 +1,23 @@
 body {
-  background: #f7f5f5;
+  background: var(--dip-white-color2);
   font-family: sans-serif;
 }
 
 .sec {
-  padding: 12px 12px;
+  padding: var(--12px);
   background: #fff;
-  margin-bottom: 12px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-bottom: var(--12px);
 }
 
 .category {
   font-size: 10px;
-  font-weight: 600;
-  color: #555454;
+  font-weight: var(--600);
+  color: var(--light-black-color);
 }
 
 .title {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: var(--600);
   margin: 2px 0;
   width: auto;
   overflow: auto;
@@ -32,48 +29,43 @@ body {
 
 .author {
   font-size: 11px;
-  color: #9191ee;
-}
-
-.btnDiv {
-  display: flex;
-  gap: 10px;
+  color: var(--light-blue-color);
 }
 
 .button {
   background: none;
-  color: #9191ee;
+  color: var(--light-blue-color);
   font-size: 10px;
   border: none;
 }
 
 .button:nth-child(1) {
-  border-right: 1px solid black;
-  padding-right: 7px;
+  border-right: 1px solid var(--black-color);
+  padding-right: var(--7px);
 }
 
 .button:nth-child(2) {
-  border-right: 1px solid black;
-  padding-right: 7px;
+  border-right: 1px solid var(--black-color);
+  padding-right: var(--7px);
 }
 
 .current {
   font-size: 10px;
-  font-weight: 300;
-  color: #555454;
+  font-weight: var(--300);
+  color: var(--light-black-color);
   margin-bottom: 5px;
 }
 
 .chapter {
-  font-weight: 300;
+  font-weight: var(--300);
   font-size: 13px;
-  color: #000;
+  color: var(--black-color);
   margin-bottom: 10px;
 }
 
 .progress {
-  background: aqua;
-  color: #fff;
+  background: var(--blue-color);
+  color: var(--white-color);
   border: none;
   padding: 5px;
   font-size: 10px;
@@ -83,7 +75,7 @@ body {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  border: 4px solid #9191ee;
+  border: 4px solid var(--light-blue-color);
   border-left: 4px solid #f7f5f5;
 }
 
@@ -99,10 +91,10 @@ body {
 
 .percentage {
   font-size: 24px;
-  color: #555454;
+  color: var(--light-black-color);
 }
 
 .complete {
   font-size: 12px;
-  color: #000;
+  color: var(--black-color);
 }

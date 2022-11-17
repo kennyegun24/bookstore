@@ -13,12 +13,12 @@ const Book = ({
   };
 
   return (
-    <section className="sec">
+    <section className="sec flex jstSpb aliCnt">
       <div className="firstDiv">
         <p className="category">{category}</p>
         <p className="title">{title}</p>
         <p className="author">{author}</p>
-        <div className="btnDiv">
+        <div className="btnDiv flex gap10px">
           <button className="button" type="button">Comment</button>
           <button className="button" type="button" onClick={deleted}>Remove</button>
           <button className="button" type="button">Edit</button>

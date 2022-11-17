@@ -1,15 +1,15 @@
 .select {
   width: 22%;
-  padding: 0 0 0 12px;
-  border: 1px solid rgb(214, 211, 211);
-  margin-right: 2%;
+  padding: 0 0 0 var(--12px);
+  border: 1px solid var(--dip-white-color);
+  margin-right: var(--margin-2);
 }
 
 input {
-  margin-right: 2%;
+  margin-right: var(--margin-2);
   width: 30%;
-  border: 1px solid rgb(214, 211, 211);
-  padding: 2px 12px;
+  border: 1px solid var(--dip-white-color);
+  padding: 2px var(--12px);
   font-size: 11px;
 }
 
@@ -24,7 +24,7 @@ input {
 }
 
 .btn {
-  background: blue;
+  background: var(--blue-color);
   font-size: 14px;
   padding: 5px;
   border: 0;
@@ -33,6 +33,6 @@ input {
 
 .error {
   margin-top: 50px;
-  font-size: 12px;
-  color: red;
+  font-size: var(--12px);
+  color: var(--red-color);
 }
