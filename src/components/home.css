@@ -1,3 +1,108 @@
+body {
+  background: #f7f5f5;
+  font-family: sans-serif;
+}
+
 .sec {
-  border: 1px solid black;
+  padding: 12px 12px;
+  background: #fff;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category {
+  font-size: 10px;
+  font-weight: 600;
+  color: #555454;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 2px 0;
+  width: auto;
+  overflow: auto;
+}
+
+.title::-webkit-scrollbar {
+  display: none;
+}
+
+.author {
+  font-size: 11px;
+  color: #9191ee;
+}
+
+.btnDiv {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  background: none;
+  color: #9191ee;
+  font-size: 10px;
+  border: none;
+}
+
+.button:nth-child(1) {
+  border-right: 1px solid black;
+  padding-right: 7px;
+}
+
+.button:nth-child(2) {
+  border-right: 1px solid black;
+  padding-right: 7px;
+}
+
+.current {
+  font-size: 10px;
+  font-weight: 300;
+  color: #555454;
+  margin-bottom: 5px;
+}
+
+.chapter {
+  font-weight: 300;
+  font-size: 13px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.progress {
+  background: aqua;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.round {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #9191ee;
+  border-left: 4px solid #f7f5f5;
+}
+
+.firstDiv {
+  width: 50%;
+}
+
+.secondDiv {
+  width: 20%;
+  display: flex;
+  gap: 5px;
+}
+
+.percentage {
+  font-size: 24px;
+  color: #555454;
+}
+
+.complete {
+  font-size: 12px;
+  color: #000;
 }

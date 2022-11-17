@@ -2,23 +2,29 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  text-align: left;
-  gap: 10px;
+  gap: 40px;
   position: fixed;
   width: 100%;
   top: 0;
-  background: black;
+  background: #fff;
+  padding: 15px 10%;
+  font-family: sans-serif;
 }
 
 .navDiv {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .header,
 .link {
   text-decoration: none;
-  color: #fff;
+  color: blue;
+}
+
+.link {
+  font-size: 11px;
+  color: #000;
 }
