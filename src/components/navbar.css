@@ -16,6 +16,8 @@
   --500: 500;
   --600: 600;
   --7px: 7px;
+  --Mon-font: 'Montserrat', sans-serif;
+  --Rob-font: 'Roboto', sans-serif;
 }
 
 .link {
@@ -23,7 +25,7 @@
   letter-spacing: 2px;
   font-size: 9px;
   color: #121212;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--Mon-font);
 }
 
 .link2 {
@@ -85,7 +87,7 @@
 .header {
   text-decoration: none;
   color: var(--blue-color);
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--Mon-font);
   font-weight: 600;
 }
 

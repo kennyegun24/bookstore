@@ -13,7 +13,7 @@ body {
   font-size: 10px;
   font-weight: var(--600);
   color: var(--light-blue-color);
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--Mon-font);
 }
 
 .title {
@@ -22,7 +22,7 @@ body {
   margin: 2px 0;
   width: auto;
   overflow: auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--Rob-font);
 }
 
 .title::-webkit-scrollbar {
@@ -34,7 +34,7 @@ body {
   color: var(--blue-color-2);
   font-weight: 300;
   margin-top: 2px;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--Rob-font);
   font-stretch: normal;
 }
 
@@ -45,7 +45,7 @@ body {
   border: none;
   font-weight: 300;
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--Rob-font);
 }
 
 .button:nth-child(1) {
@@ -99,13 +99,13 @@ body {
   display: flex;
   gap: 10px;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--Mon-font);
 }
 
 .thirdDiv {
   width: 30%;
   padding: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--Mon-font);
 }
 
 .percentage {
