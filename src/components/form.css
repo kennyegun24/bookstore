@@ -1,0 +1,48 @@
+.select {
+  width: 22%;
+  padding: 8px var(--12px);
+  border: 1px solid var(--dip-white-color);
+  margin-right: var(--margin-2);
+  font-size: 11px;
+  color: var(--light-black-color);
+}
+
+input {
+  margin-right: var(--margin-2);
+  width: 30%;
+  border: 1px solid var(--dip-white-color);
+  padding: 8px var(--12px);
+  font-size: 11px;
+}
+
+.form {
+  width: 100%;
+}
+
+.formSection {
+  border-top: 1px solid var(--dip-white-color);
+  margin-top: 50px;
+}
+
+.newBook {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #888;
+  font-family: var(--Mon-font);
+}
+
+.btn {
+  font-size: 11px;
+  padding: 8px;
+  border: 0;
+  width: 80px;
+  background: var(--blue-color);
+  color: #fff;
+}
+
+.error {
+  margin-top: 20px;
+  font-size: var(--12px);
+  color: var(--red-color);
+}
