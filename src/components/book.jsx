@@ -11,12 +11,18 @@ const Books = () => {
     dispatch(getBooks());
   }, [dispatch]);
   return (
-    <>
+    <div className="book marginDnLg marginUpLg marginLfAt marginRtAt">
       {books.map((book) => (
-        <Book key={book.item_id} id={book.item_id} title={book.title} author={book.author} />
+        <Book
+          key={book.item_id}
+          id={book.item_id}
+          title={book.title}
+          author={book.author}
+          category={book.category}
+        />
       ))}
-      <Form />
-    </>
+      <Form className="formMain" />
+    </div>
   );
 };
 

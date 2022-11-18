@@ -1,24 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+:root {
+  --blue-color: #0290ff;
+  --blue-color-2: #4386bf;
+  --light-blue-color: #9f9fb9;
+  --white-color: #fff;
+  --black-color: #000;
+  --light-black-color: #555454;
+  --red-color: red;
+  --dip-white-color: #d6d3d3;
+  --dip-white-color2: #f7f5f5;
+  --margin-2: 2%;
+  --12px: 12px;
+  --300: 300;
+  --500: 500;
+  --600: 600;
+  --7px: 7px;
+  --Mon-font: 'Montserrat', sans-serif;
+  --Rob-font: 'Roboto', sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 11px;
+  color: #121212;
+  font-family: var(--Mon-font);
+}
+
+.link2 {
+  width: 6.563rem;
+  opacity: 0.5;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  font-size: 9px;
+}
+
+.padding10 {
+  padding: 8px;
+}
+
+.marginUpLg {
+  margin-top: 70px;
+}
+
+.marginDnLg {
+  margin-bottom: 70px;
+}
+
+.marginLfAt {
+  margin-left: auto;
+}
+
+.marginRtAt {
+  margin-right: auto;
+}
+
 .nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: left;
-  gap: 10px;
   position: fixed;
   width: 100%;
   top: 0;
-  background: black;
+  background: var(--white-color);
+  padding: 15px 10%;
+  font-family: sans-serif;
 }
 
-.navDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.gap10 {
   gap: 10px;
 }
 
-.header,
-.link {
+.gap20 {
+  gap: 20px;
+}
+
+.gap30 {
+  gap: 30px;
+}
+
+.gap40 {
+  gap: 40px;
+}
+
+.header {
   text-decoration: none;
-  color: #fff;
+  color: var(--blue-color);
+  font-family: var(--Mon-font);
+  font-weight: 600;
+}
+
+.flex {
+  display: flex;
+}
+
+.gapMd {
+  gap: 30px;
+}
+
+.jstCnt {
+  justify-content: center;
+}
+
+.jstSpb {
+  justify-content: space-between;
+}
+
+.aliCnt {
+  align-items: center;
+}
+
+.icon {
+  border: 1px solid var(--dip-white-color);
+  border-radius: 50%;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.font_icon {
+  color: var(--blue-color);
+  height: 15px;
+  width: 15px;
 }
