@@ -38,6 +38,13 @@ body {
   font-stretch: normal;
 }
 
+.horizontal {
+  height: auto;
+  opacity: 0.4;
+  width: 1px;
+  background: #888;
+}
+
 .button {
   background: none;
   color: var(--blue-color-2);
@@ -46,16 +53,6 @@ body {
   font-weight: 300;
   cursor: pointer;
   font-family: var(--Rob-font);
-}
-
-.button:nth-child(1) {
-  border-right: 1px solid var(--blue-color-2);
-  padding-right: var(--7px);
-}
-
-.button:nth-child(2) {
-  border-right: 1px solid var(--blue-color-2);
-  padding-right: var(--7px);
 }
 
 .current {

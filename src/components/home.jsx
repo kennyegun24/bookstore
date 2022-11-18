@@ -20,7 +20,9 @@ const Book = ({
         <p className="author">{author}</p>
         <div className="btnDiv flex">
           <button className="button" type="button">Comment</button>
+          <span className="horizontal" />
           <button className="button" type="button" onClick={deleted}>Remove</button>
+          <span className="horizontal" />
           <button className="button" type="button">Edit</button>
         </div>
       </div>
